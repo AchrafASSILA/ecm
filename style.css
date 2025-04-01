@@ -700,7 +700,13 @@ div.datetime-container button span.month-day {
   height: 603px;
 }
 .room-item img{
-  height: 100%;
+  height: 102%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .room-item img.post-image {
   -webkit-transform: scale(1);
